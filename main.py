@@ -8,6 +8,7 @@ import logging
 import controller
 #external libraries
 from daemonize import Daemonize
+import rumps
 
 with open("settings.json", "r") as read_file:
     settings = json.load(read_file)
