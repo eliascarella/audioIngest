@@ -13,25 +13,26 @@ This Daemon will routinely check for new folders of music and automatically conv
 It leverages OSX's Tags attribute to keep a list of what has been processed and what hasn't.
 Paths and Tags are storend in a settings.json, I'm implemented this right away for future GUI implementations. 
 
-
+---
 ## Install
 this project is OSX only and assumes that you have **SoX** and **LAME** binaries installed on your machine. 
 It uses **python 3.7**
 
-- clone this repo
-- run ´git submodule init´
-  - ´cd osxmetadata´
-    - ´python setup.py install´
+* clone this repo
+* run `git submodule init`
+  * `cd osxmetadata`
+    * `python setup.py install` 
 
-
+---
 ## Use
 As of now there's only basic functionalities, star and/or watch this repo to know then the 1.0 will be out with a gui to dial-in the settings. 
 If you want to try it out: **pre-tag the folders in the directory you want to be watched** so it doesn't get copied, converted and added into iTunes all over again. Use at your own risk.
 
+---
 ## To-Do
 by order of importance
-- Delete copied and converted files at the end of the whole run
-- daemonize the project
-- Add multiple input/output type
-- Basic GUI on mac menubar to check status, change settings. 
-- multi-threading
+* Delete copied and converted files at the end of the whole run
+* daemonize the project
+* Add multiple input/output type
+* Basic GUI on mac menubar to check status, change settings. 
+* multi-threading
