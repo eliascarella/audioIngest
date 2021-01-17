@@ -1,5 +1,8 @@
-
-/testFolders/source/*.flac
-/testFolders/source/*.mp3
-/testFolders/toConvert/*.flac
-/testFolders/toConvert/*.mp3
+__pycache__/
+.vscode/
+osxmetadata/
+testFolders/source/*.flac
+testFolders/source/*.mp3
+testFolders/toConvert/*.flac
+testFolders/toConvert/*.mp3
+tests.py
