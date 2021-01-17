@@ -1,10 +1,16 @@
 __pycache__/
 .vscode/
 osxmetadata/
+testFolders/source/*/
 testFolders/source/*.flac
 testFolders/source/*.mp3
+testFolders/toConvert/*/
 testFolders/toConvert/*.flac
 testFolders/toConvert/*.mp3
 tests.py
 .DS_Store.txt
 process.blinkmind
+*.log
+*.pid
+*.mp3
+*.flac

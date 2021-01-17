@@ -31,6 +31,7 @@ If you want to try it out: **pre-tag the folders in the directory you want to be
 ---
 ## To-Do
 by order of importance
+* Better error handling
 * Delete copied and converted files at the end of the whole run
 * daemonize the project
 * Add multiple input/output type

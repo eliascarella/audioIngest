@@ -1,0 +1,30 @@
+CARTRIDGE: AT33PTG/II
+TURNTABLE: Technics SL-1210GR
+PHONO STAGE: Musical Surroundings Phonomena II+
+LINE IN / PRE-AMP OUT: Rega Mira
+SOUND CARD: ESI Juli@
+CABLES: Van Damme XKE w/ Rean NYS373
+ACCESSORIES: AT618 disc stabilizer, Technics RGS0008 rubber mat
+
+RECORD CLEANING: Okki Nokki, CompuCleaner electric air duster
+CLEANING SOLUTION: L'Art du Son, purified water, 99.9% isopropanol
+STYLUS CLEANING: Onzow Zerodust
+RECORDING SOFTWARE: Adobe Audition CC 2017
+RECORDING DEVICE: ASIO4ALL v2
+POST-PROCESSING SOFTWARE: iZotope RX 7, Ableton Live 9.7.5
+LIMITER: iZotope Neutron 2.01
+L/R ADJUSTMENT: R channel +0.52dB
+
+> Maximize gain at the analog stage, peaking somewhere between -6dBFS and -3dBFS
+> Record to 32-bit 96kHz WAV
+> Analyze integrated loudness (BS.1770-2/3/4) in mono using LUFS meter
+> Adjust digital gain to correct L/R channel imbalance, using the waveform statistics as a reference
+> Repair any severe short impulse noises manually using the RX de-click module (M-band) and spectral replace (partials + noise / pattern)
+> Repair any collateral damage caused by the de-clicker using narrow crossfades in Ableton
+> Split to mono, limit L/R channels separately using IRC II (smooth mode), then rejoin as split stereo
+> Normalize everything to -1.10dBFS (as a single track to preserve album dynamics)
+> Split tracks and fade (log in, cosine out)
+> Reduce bit-rate using MBIT+ (dither = normal, noise shaping = none)
+> Reduce sample-rate using SRC (filter = 32, cutoff = 0.95, pre-ringing = 1.00)
+
+Rip by koyaanisqatsy

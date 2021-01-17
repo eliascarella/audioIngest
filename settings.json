@@ -1,8 +1,9 @@
 {
-    "srcPath": "./testFolders/source",
-    "dstPath": "./testFolders/toConvert",
+    "srcPath": "/Users/eliascarella/dev/audioIngest/testFolders/sourceImport",
+    "dstPath": "/Users/eliascarella/dev/audioIngest/testFolders/toConvert",
     "itunesAutoPath": "/Volumes/Extreme SSD/backupitunes/NewMix/iTunes Media/Automatically Add to iTunes",
     "tagHasBeenMoved": "processed",
     "tagIsBeingConverted": "converted", 
-    "tagHasBeenCopiedToLibrary": "addedToItunes"
+    "tagHasBeenCopiedToLibrary": "addedToItunes",
+    "timeIntervalInMinutes":  "15"
 }

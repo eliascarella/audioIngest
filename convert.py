@@ -1,5 +1,6 @@
 import os
 import json
+import logging
 from osxmetadata import OSXMetaData, Tag
 import subprocess
 
@@ -25,7 +26,7 @@ def convert():
 
         # convert to mp3
             if inputFilePath.endswith(".flac"):
-                print('starting to convert '+ inputFilePath)
+                logging.info('starting to convert '+ inputFilePath)
                 filePath = inputFilePath.replace(".flac", "")
                 outputFilePath = filePath + ".mp3"
 
@@ -39,3 +40,4 @@ def addToLibrary():
 
             if finalFile.endswith(".mp3"):
                 subprocess.run(["cp", finalFile, iTunesPath])
+                logging.info("the file: "+finalFile+" has been added to the iTunes folder")

@@ -1,4 +1,5 @@
 import os
+import logging
 from distutils.dir_util import copy_tree
 from osxmetadata import OSXMetaData, Tag
 import osxmetadata
@@ -12,8 +13,8 @@ with open ("settings.json", "r") as read_file:
 
 
 # Declaring source and destination folder
-pathSource = settings['srcPath']
-pathConvert = settings['dstPath']
+srcPath = settings['srcPath']
+dstPath = settings['dstPath']
 iTunesPath = settings['itunesAutoPath']
 
 #declaring tags object
@@ -25,8 +26,8 @@ hasBeenMoved = [Tag(m)]
 #Copying files
 def copyFiles():
     subprocess.run(["clear"])
-    print("starting the routine check")
-    for root, dirs, files  in os.walk(pathSource, topdown=False):
+    logging.info("starting the routine check")
+    for root, dirs, files  in os.walk(srcPath, topdown=False):
         for name in dirs:
 
             folder = (os.path.join(root, name))
@@ -34,24 +35,39 @@ def copyFiles():
             md = osxmetadata.OSXMetaData(folder) 
 
             #next line is for testing purposes only, remove for build version
-            #md.clear_attribute("tags")
+            md.clear_attribute("tags")
             
             if not md.tags:
                 #check if flac in folder
-                print("new folders detected")
+                logging.info("new folders detected")
                 if any(File.endswith('.flac') for File in os.listdir(folder)):
-                    copy_tree(folder, pathConvert+"/"+name)
+                    copy_tree(folder, dstPath+"/"+name)
                     #add tag
                     md.tags+= hasBeenMoved
-                    print(folder+" has been moved")
+                    logging.info(folder+" has been moved")
                 
                 elif any(File.endswith('.mp3') for File in os.listdir(folder)):
                     copy_tree(folder, iTunesPath)
                     md.tags+= hasBeenMoved
-                    print("the folder "+name+" contained mp3 so it has been moved to  itunes already")
+                    logging.info("the folder "+name+" contained mp3 so it has been moved to  itunes already")
                     
             else: 
-                print("nothing new to convert")
+                logging.info("nothing new to convert")
                 return False
 
-copyFiles()
+def controlPaths(): 
+    if  not os.path.isdir(srcPath):
+        logging.info("Error: the path" + srcPath + " specified for the srcPath in settings.json doesn't exist")
+        logging.info("")
+        logging.info("stopping process, please check your settings")
+        exit()
+    if  not os.path.isdir(dstPath):
+        logging.info("Error: the path" + dstPath + " specified for the dstPath in settings.json doesn't exist")
+        logging.info("")
+        logging.info("stopping process, please check your settings")
+        exit()
+    if  not os.path.isdir(iTunesPath):
+        logging.info("Error: the path" + iTunesPath + " specified for the itunesAutoPath in settings.json doesn't exist")
+        logging.info("")
+        logging.info("stopping process, please check your settings")
+        exit()

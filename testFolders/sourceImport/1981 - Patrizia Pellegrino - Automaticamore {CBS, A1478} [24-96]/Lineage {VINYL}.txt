@@ -1,0 +1,25 @@
+CARTRIDGE: AT440MLB
+TURNTABLE: Technics SL-1210
+PHONO STAGE: Rega Mira Integrated Amplifier
+SOUND CARD: Juli@
+RECORD CLEANING: Okki Nokki
+CLEANING SOLUTION: L'Art du Son, purified water, 99.9% isopropanol
+STYLUS CLEANING: Onzow Zerodust
+RECORDING SOFTWARE: Adobe Audition CC 2017
+RECORDING DEVICE: ASIO 2.0 - ESI Juli@
+POST-PROCESSING SOFTWARE: iZotope RX 5
+LIMITER: iZotope Neutron
+
+> Record to 32-bit 96kHz WAV
+> Analyze integrated loudness in mono using LKFS meter
+> Analyze azimuth alignment using channel ops
+> Normalize stereo channels separately to correct L/R bias, using results of steps 2 and 3 as a reference
+> Adjust gain as a single track to preserve album dynamics
+> Repair using manual de-click (M-band, random) and spectral replace (partials + noise / pattern)
+> Split to mono, limit L/R channels separately using IRC II (smooth mode), then rejoin as split stereo
+> Normalize everything to 1.10dBFS
+> Split tracks and fade (log in, cosine out)
+> Reduce bit-rate using MBIT+ (dither = normal, noise shaping = none)
+> Reduce sample-rate using SRC (filter = 32, cutoff = 0.95, pre-ringing = 1.00)
+
+Rip by koyaanisqatsy
