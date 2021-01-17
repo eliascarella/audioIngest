@@ -1,0 +1,5 @@
+
+/testFolders/source/*.flac
+/testFolders/source/*.mp3
+/testFolders/toConvert/*.flac
+/testFolders/toConvert/*.mp3

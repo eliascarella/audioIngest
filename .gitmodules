@@ -1,0 +1,3 @@
+[submodule "osxmetadata"]
+	path = osxmetadata
+	url = https://github.com/RhetTbull/osxmetadata.git

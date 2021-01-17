@@ -1,0 +1,1 @@
+Music folder that get flagged with .flacs are copied here. conversion happen inside each folder before the file is copied to the itunes folder

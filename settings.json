@@ -1,0 +1,8 @@
+{
+    "srcPath": "./testFolders/source",
+    "dstPath": "./testFolders/toConvert",
+    "itunesAutoPath": "/Volumes/Extreme SSD/backupitunes/NewMix/iTunes Media/Automatically Add to iTunes",
+    "tagHasBeenMoved": "processed",
+    "tagIsBeingConverted": "converted", 
+    "tagHasBeenCopiedToLibrary": "addedToItunes"
+}

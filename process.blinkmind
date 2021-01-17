@@ -1,0 +1,344 @@
+{
+  "rootTopicKey": "10bfb039-ac02-40c8-b22c-628473d70f86",
+  "editorRootTopicKey": "10bfb039-ac02-40c8-b22c-628473d70f86",
+  "focusKey": "00457a43-83f7-4f47-9e20-f9b473afa06b",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "1056170a-1382-4c71-a6b5-1819503f3868",
+      "parentKey": "3cfe0567-b007-4733-ae44-14cde245be48",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "add \"processed\" tag to original folder"
+        }
+      ]
+    },
+    {
+      "key": "4f9e3aa4-638a-41c2-8491-75b66bb138bb",
+      "parentKey": "69a9e201-093c-4947-bea1-68cab943cc46",
+      "subKeys": [
+        "c08e0d01-7ad2-4d5a-935f-4b84cc2c8213",
+        "64200891-edd1-4cde-a0ea-86c217512f75"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "check for folders"
+        }
+      ]
+    },
+    {
+      "key": "1dea63e7-2197-4e9a-9244-82c855603053",
+      "parentKey": "10bfb039-ac02-40c8-b22c-628473d70f86",
+      "subKeys": [
+        "18c4d6e3-a55c-4974-809a-5852a1688026"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "folder management"
+        }
+      ]
+    },
+    {
+      "key": "18c4d6e3-a55c-4974-809a-5852a1688026",
+      "parentKey": "1dea63e7-2197-4e9a-9244-82c855603053",
+      "subKeys": [
+        "5880fe06-8d0a-488f-9cfb-6547c89363d8",
+        "fcef410c-c421-46fd-b191-0acf5af7a3e1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "check for folder without tag"
+        }
+      ]
+    },
+    {
+      "key": "fcef410c-c421-46fd-b191-0acf5af7a3e1",
+      "parentKey": "18c4d6e3-a55c-4974-809a-5852a1688026",
+      "subKeys": [
+        "62a0b5b2-53e4-4863-9728-dcf9f26bfa2b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "else"
+        }
+      ]
+    },
+    {
+      "key": "a8951673-8561-4dd6-9b65-1e7a3fd61b30",
+      "parentKey": "953529c3-aff2-4409-a669-682bc7428885",
+      "subKeys": [
+        "f498bdcb-4876-495e-83be-9348436cc71e"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "open .mp3 in itunes"
+        }
+      ]
+    },
+    {
+      "key": "00457a43-83f7-4f47-9e20-f9b473afa06b",
+      "parentKey": "64200891-edd1-4cde-a0ea-86c217512f75",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "do nothing"
+        }
+      ]
+    },
+    {
+      "key": "5880fe06-8d0a-488f-9cfb-6547c89363d8",
+      "parentKey": "18c4d6e3-a55c-4974-809a-5852a1688026",
+      "subKeys": [
+        "3cfe0567-b007-4733-ae44-14cde245be48"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "if (new folder == true)"
+        }
+      ]
+    },
+    {
+      "key": "62a0b5b2-53e4-4863-9728-dcf9f26bfa2b",
+      "parentKey": "fcef410c-c421-46fd-b191-0acf5af7a3e1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "do nothing"
+        }
+      ]
+    },
+    {
+      "key": "f498bdcb-4876-495e-83be-9348436cc71e",
+      "parentKey": "a8951673-8561-4dd6-9b65-1e7a3fd61b30",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "folder.tag = \"converted\""
+        }
+      ]
+    },
+    {
+      "key": "953529c3-aff2-4409-a669-682bc7428885",
+      "parentKey": "c08e0d01-7ad2-4d5a-935f-4b84cc2c8213",
+      "subKeys": [
+        "a8951673-8561-4dd6-9b65-1e7a3fd61b30"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "convert using sox"
+        }
+      ]
+    },
+    {
+      "key": "64200891-edd1-4cde-a0ea-86c217512f75",
+      "parentKey": "4f9e3aa4-638a-41c2-8491-75b66bb138bb",
+      "subKeys": [
+        "00457a43-83f7-4f47-9e20-f9b473afa06b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "if (folder.tag == converted)"
+        }
+      ]
+    },
+    {
+      "key": "3cfe0567-b007-4733-ae44-14cde245be48",
+      "parentKey": "5880fe06-8d0a-488f-9cfb-6547c89363d8",
+      "subKeys": [
+        "1056170a-1382-4c71-a6b5-1819503f3868"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "copy folder to to \"toConvert\" folder"
+        }
+      ]
+    },
+    {
+      "key": "5c877925-e667-46ec-ad67-98ecd0729883",
+      "parentKey": "c08e0d01-7ad2-4d5a-935f-4b84cc2c8213",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "delete original"
+        }
+      ]
+    },
+    {
+      "key": "69a9e201-093c-4947-bea1-68cab943cc46",
+      "parentKey": "f4042875-e368-4ebf-ad21-47ffa2b8d2c0",
+      "subKeys": [
+        "4f9e3aa4-638a-41c2-8491-75b66bb138bb"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "if (external ssd connected)"
+        }
+      ]
+    },
+    {
+      "key": "f4042875-e368-4ebf-ad21-47ffa2b8d2c0",
+      "parentKey": "10bfb039-ac02-40c8-b22c-628473d70f86",
+      "subKeys": [
+        "69a9e201-093c-4947-bea1-68cab943cc46"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "audio converter"
+        }
+      ]
+    },
+    {
+      "key": "10bfb039-ac02-40c8-b22c-628473d70f86",
+      "parentKey": null,
+      "subKeys": [
+        "1dea63e7-2197-4e9a-9244-82c855603053",
+        "f4042875-e368-4ebf-ad21-47ffa2b8d2c0"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Main Script"
+        }
+      ]
+    },
+    {
+      "key": "c08e0d01-7ad2-4d5a-935f-4b84cc2c8213",
+      "parentKey": "4f9e3aa4-638a-41c2-8491-75b66bb138bb",
+      "subKeys": [
+        "953529c3-aff2-4409-a669-682bc7428885",
+        "5c877925-e667-46ec-ad67-98ecd0729883"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "if (folder.tag == null)"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme2",
+      "randomColor": false,
+      "background": "#f8f8f8",
+      "highlightColor": "#50C9CE",
+      "marginH": 45,
+      "marginV": 10,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#50C18A",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#ffffff",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "rgb(221, 170, 68)",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#fff",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}

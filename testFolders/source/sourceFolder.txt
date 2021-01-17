@@ -1,0 +1,1 @@
+Put the original folders here to see if they get flagged as containing either .flac or .mp3 files
